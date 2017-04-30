@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lab.twang.capitalismwarrior.MainActivity">
+
+    <include layout="@layout/toolbar_main"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/box_fill_white"
+        android:elevation="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Cant find what you are looking for?"
+            android:textColor="@color/itemName"
+            android:textSize="17sp"/>
+
+
+        <TextView
+            android:id="@+id/button_restock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_amazon_orange"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Check out our daily deals!"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>

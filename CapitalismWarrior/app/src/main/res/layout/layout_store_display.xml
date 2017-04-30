@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/box_rounded"
+              android:elevation="1dp"
+              android:layout_marginBottom="1dp"
+              android:orientation="horizontal"
+              android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/weapon_image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="5dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/weapon_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weapon Name"
+            android:textColor="@color/itemName"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/weapon_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$999"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/weapon_price_decimal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=".99"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/weapon_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Stock"
+            android:textColor="#831f1f"
+            android:textSize="15sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="25dp">
+
+            <ImageView
+                android:id="@+id/weapon_star01"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/btn_star_big_off"/>
+
+            <ImageView
+                android:id="@+id/weapon_star02"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/btn_star_big_off"/>
+
+            <ImageView
+                android:id="@+id/weapon_star03"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/btn_star_big_off"/>
+
+            <ImageView
+                android:id="@+id/weapon_star04"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/btn_star_big_off"/>
+
+            <ImageView
+                android:id="@+id/weapon_star05"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/btn_star_big_off"/>
+
+            <TextView
+                android:id="@+id/weapon_number_of_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="234"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

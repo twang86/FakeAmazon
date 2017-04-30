@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212e40</color>#2e3b4d
+    <color name="colorPrimaryDark">#1c242f</color>
+    <color name="colorAccent">#e2a75c</color>
+    <color name="colorGray">#9e9e9e</color>
+    <color name="colorAmazonRed">#831f1f</color>
+    <color name="colorAmazonDark">#643600</color>
+    <color name="itemName">#000</color>
+    <color name="itemDescription">#1b1b1b</color>
+</resources>

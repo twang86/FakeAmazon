@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lab.twang.capitalismwarrior.CheckoutActivity">
+
+    <include layout="@layout/toolbar_main"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/checkout_cart_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cart subtotal (1 item): "
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/checkout_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$2,099.99"
+            android:textColor="#831f1f"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+
+        android:id="@+id/checkout_all_items_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_amazon_orange"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Checkout"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorGray"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/checkout_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
