@@ -47,3 +47,4 @@ This app as it stands, covers the store and buying aspect of the game.
 ## Known issues
 
 - Picasso reloads everytime the recyclerview adds or deletes views. I need to add some logic to prevent this
+- In the item detail view, the selection boxes look different depending on the version of Android. 
