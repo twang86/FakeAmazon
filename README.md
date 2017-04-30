@@ -30,7 +30,9 @@ This app as it stands, covers the store and buying aspect of the game.
 ## Future plans
 
 - I will be making the "Game" aspect of the app
-- That aspect WILL have a lot of animations and material designs we've learned.
+- That aspect WILL have a lot more animations and cool stuff
+- I will be migrating the database to the cloud, or maybe use an API of some sort to get a list of weapons
+- As weapon lists grow, I will be implementing a filter function
 
 ## Known issues
 
