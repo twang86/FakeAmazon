@@ -8,11 +8,11 @@ This app as it stands, covers the store and buying aspect of the game.
 
 ## Screenshots
 
-<p align="center">
+<p align="left">
 <img src="Screenshots/screen01.png" height="300px" /> <img src="Screenshots/screen02.png" height="300px" /> <img src="Screenshots/screen03.png" height="300px" /> 
 </p>
 
-<p align="center">
+<p align="left">
 <img src="Screenshots/screen04.png" height="300px" /> <img src="Screenshots/screen05.png" height="300px" /> <img src="Screenshots/screen06.png" height="300px" />
 </p>
 
