@@ -1,15 +1,15 @@
 package com.lab.twang.capitalismwarrior.StoreViewSupport;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.lab.twang.capitalismwarrior.DatabaseStuff.DBHelper;
 import com.lab.twang.capitalismwarrior.JavaClasses.Review;
 import com.lab.twang.capitalismwarrior.JavaClasses.WeaponStoreItem;
 import com.lab.twang.capitalismwarrior.R;
-import com.lab.twang.capitalismwarrior.Variables.VariableNames;
 import com.lab.twang.capitalismwarrior.ViewHelpers.ViewHelper;
 import com.squareup.picasso.Picasso;
 

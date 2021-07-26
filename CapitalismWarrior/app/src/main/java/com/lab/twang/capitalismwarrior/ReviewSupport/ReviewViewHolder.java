@@ -1,9 +1,10 @@
 package com.lab.twang.capitalismwarrior.ReviewSupport;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.lab.twang.capitalismwarrior.JavaClasses.Review;
 import com.lab.twang.capitalismwarrior.R;

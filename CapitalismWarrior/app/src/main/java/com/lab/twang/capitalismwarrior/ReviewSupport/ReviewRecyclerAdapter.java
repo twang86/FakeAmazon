@@ -1,8 +1,9 @@
 package com.lab.twang.capitalismwarrior.ReviewSupport;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.lab.twang.capitalismwarrior.JavaClasses.Review;
 import com.lab.twang.capitalismwarrior.R;

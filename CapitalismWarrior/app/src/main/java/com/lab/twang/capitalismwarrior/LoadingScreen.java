@@ -2,10 +2,11 @@ package com.lab.twang.capitalismwarrior;
 
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.lab.twang.capitalismwarrior.DatabaseStuff.DBAssetHelper;
 import com.lab.twang.capitalismwarrior.DatabaseStuff.DBHelper;
@@ -48,12 +49,9 @@ public class LoadingScreen extends AppCompatActivity {
 
 
 
-        mTapToStart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(LoadingScreen.this, MainActivity.class));
-                finish();
-            }
+        mTapToStart.setOnClickListener(v -> {
+            startActivity(new Intent(LoadingScreen.this, MainActivity.class));
+            finish();
         });
 
 

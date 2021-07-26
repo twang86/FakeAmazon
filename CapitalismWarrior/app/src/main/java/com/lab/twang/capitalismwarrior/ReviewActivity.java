@@ -1,6 +1,5 @@
 package com.lab.twang.capitalismwarrior;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -8,6 +7,8 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.lab.twang.capitalismwarrior.DatabaseStuff.DBHelper;
 import com.lab.twang.capitalismwarrior.JavaClasses.WeaponStoreItem;

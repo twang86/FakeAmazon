@@ -1,9 +1,10 @@
 package com.lab.twang.capitalismwarrior.ViewHelpers;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.lab.twang.capitalismwarrior.CheckoutSupport.CheckoutViewHolder;
 import com.lab.twang.capitalismwarrior.JavaClasses.WeaponStoreItem;

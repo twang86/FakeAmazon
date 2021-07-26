@@ -2,23 +2,21 @@ package com.lab.twang.capitalismwarrior;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
+
 import com.lab.twang.capitalismwarrior.DatabaseStuff.DBHelper;
 import com.lab.twang.capitalismwarrior.JavaClasses.WeaponStoreItem;
-import com.lab.twang.capitalismwarrior.Variables.VariableNames;
 import com.lab.twang.capitalismwarrior.ViewHelpers.ViewHelper;
 import com.lab.twang.capitalismwarrior.ViewHelpers.WeaponRecyclerAdapter;
 
@@ -115,7 +113,7 @@ public class CheckoutActivity extends AppCompatActivity implements WeaponRecycle
                 break;
             case R.id.weapon_cart_change:
                 //Toast.makeText(this, "change!", Toast.LENGTH_SHORT).show();
-                String nums[] = {"1", "2", "3","4","5","6","7","8","9","10"};
+                String[] nums = {"1", "2", "3","4","5","6","7","8","9","10"};
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(v.getContext());
 
